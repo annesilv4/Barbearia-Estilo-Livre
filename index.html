@@ -16,7 +16,8 @@
     <link rel="stylesheet" href="./CSS/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-light px-5">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg nav-bg px-5">
       <div class="container-fluid justify-content-between mx-5">
         <a class="navbar-brand" href="#">
           <img
@@ -41,8 +42,8 @@
           class="collapse navbar-collapse justify-content-end mx-5"
           id="navbarNavAltMarkup"
         >
-          <div class="navbar-nav gap-5">
-            <a class="nav-link-custom" href="#">Home</a>
+          <div class="navbar-nav text-center gap-5">
+            <a class="nav-link-custom" href="#home">Home</a>
             <a class="nav-link-custom" href="#">Sobre Nós</a>
             <a class="nav-link-custom" href="#">Serviços</a>
             <a class="nav-link-custom" href="#">Depoimentos</a>
@@ -51,6 +52,20 @@
         </div>
       </div>
     </nav>
+
+    <!-- SECTION HOME -->
+    <section
+      class="container-fluid position-relative d-flex align-items-center justify-content-center text-center px-5"
+      id="home"
+    >
+      <div class="overlay position-absolute top-0 start-0 w-100 h-100"></div>
+      <div
+        class="home-description position-relative d-flex flex-column justify-content-center"
+      >
+        <h1 class="fw-bold fs-2">Bem-vindo a Barbearia Estilo Livre</h1>
+        <p class="fs-5"><i>A liberdade em cada detalhe.</i></p>
+      </div>
+    </section>
 
     <!-- BOOTSTRAP JS -->
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

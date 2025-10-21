@@ -11867,4 +11867,33 @@ textarea.form-control-lg {
   color: #c91b1b;
 }
 
+.nav-bg {
+  background-color: rgba(244, 244, 244, 0.5607843137);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+#home {
+  background-image: url("../assets/img-sections/barbearia-em-fortaleza-7.webp"); /* sua imagem */
+  background-size: cover; /* cobre toda a seção */
+  background-position: center; /* centraliza a imagem */
+  background-repeat: no-repeat; /* não repete */
+  height: 82vh; /* ocupa toda a altura da tela */
+  background-color: #000; /* fallback preto */
+}
+
+/* Overlay preta semi-transparente */
+#home .overlay {
+  background-color: rgba(0, 0, 0, 0.6); /* preto com 60% de opacidade */
+}
+
+.home-description {
+  width: 55%;
+  height: 20%;
+  border-radius: 15px;
+  background-color: rgba(244, 244, 244, 0.665);
+}
+
 /*# sourceMappingURL=style.css.map */
