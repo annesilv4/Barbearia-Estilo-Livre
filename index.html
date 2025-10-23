@@ -14,6 +14,15 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="./CSS/style.css" />
+
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <!-- NAVBAR -->
@@ -44,8 +53,8 @@
         >
           <div class="navbar-nav text-center gap-5">
             <a class="nav-link-custom" href="#home">Home</a>
-            <a class="nav-link-custom" href="#">Sobre Nós</a>
-            <a class="nav-link-custom" href="#">Serviços</a>
+            <a class="nav-link-custom" href="#about">Sobre Nós</a>
+            <a class="nav-link-custom" href="#service">Serviços</a>
             <a class="nav-link-custom" href="#">Depoimentos</a>
             <a class="nav-link-custom" href="#">Contato</a>
           </div>
@@ -55,15 +64,229 @@
 
     <!-- SECTION HOME -->
     <section
-      class="container-fluid position-relative d-flex align-items-center justify-content-center text-center px-5"
+      class="container-fluid position-relative d-flex align-items-center justify-content-left text-center px-5"
       id="home"
     >
       <div class="overlay position-absolute top-0 start-0 w-100 h-100"></div>
       <div
-        class="home-description position-relative d-flex flex-column justify-content-center"
+        class="home-description position-relative d-flex flex-column justify-content-center p-5"
       >
         <h1 class="fw-bold fs-2">Bem-vindo a Barbearia Estilo Livre</h1>
         <p class="fs-5"><i>A liberdade em cada detalhe.</i></p>
+        <a href="#about" class="btn-more w-25 h-35">Saiba Mais!</a>
+      </div>
+    </section>
+
+    <!-- SECTION ABOUT -->
+    <section id="about" class="py-5 px-5 text-center justify-content-center">
+      <h1 class="fw-bold">Sobre Nós</h1>
+      <div
+        class="container-fluid d-grid p-5 h-100 w-80 align-items-center justify-content-center"
+      >
+        <div class="row p-5">
+          <div class="col">
+            <img
+              src="./assets/img-logo/logo-barbearia.png"
+              class="about-img"
+              alt=""
+            />
+          </div>
+          <div
+            class="col d-flex flex-column align-items-center justify-content-center"
+          >
+            <p class="fs-4 text-justify">
+              Na <strong>Estilo Livre</strong>, acreditamos que cuidar da
+              aparência é uma forma de expressar quem você é. Unimos tradição e
+              modernidade para oferecer uma experiência completa de barbearia —
+              onde cada corte é pensado para realçar o seu estilo com elegância
+              e autenticidade.
+            </p>
+            <p class="fs-4 text-justify">
+              Mais do que um simples corte de cabelo ou barba, entregamos um
+              momento de cuidado, conforto e confiança. Nosso ambiente foi
+              criado para que você se sinta à vontade, enquanto nossos
+              profissionais cuidam de cada detalhe com precisão e dedicação.
+            </p>
+            <p class="fs-4 text-justify">
+              Aqui, <strong>liberdade e estilo caminham juntos</strong> — porque
+              acreditamos que o verdadeiro charme está em ser você mesmo, com
+              sofisticação.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION SERVICE -->
+    <section id="service" class="p-5">
+      <div class="container-fluid text-center">
+        <h1 class="fw-bold">Nossos Serviços</h1>
+        <p class="text-muted">
+          <i
+            >Na Estilo Livre, unimos técnica e estilo para oferecer cortes,
+            barbas e cuidados que refletem elegância e autenticidade.
+            <br />Aqui, cada detalhe é pensado para realçar o seu melhor
+            visual.</i
+          >
+        </p>
+      </div>
+
+      <div class="mb-5">
+        <h4 class="fw-bold mb-4 text-center">
+          <img
+            src="./assets/icons-service/barbearia.png"
+            class="img-category"
+            alt=""
+          />
+          Serviços Clássicos e Essenciais
+        </h4>
+        <div class="row g-4 justify-content-center">
+          <div class="col-md-4">
+            <div
+              class="card border-0 shadow-sm h-100 text-center align-items-center p-4"
+            >
+              <i class="fa-solid fa-scissors fa-2x mb-3 text-dark"></i>
+              <h5 class="fw-bold">Corte Masculino Tradicional</h5>
+              <p class="text-muted">Técnicas modernas e acabamento preciso</p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div
+              class="card border-0 shadow-sm h-100 text-center align-items-center p-4"
+            >
+              <i class="fa-solid fa-ruler-combined fa-2x mb-3 text-dark"></i>
+              <h5 class="fw-bold">Corte Moderno e Estilizado</h5>
+              <p class="text-muted">
+                Tendências atuais como fade, undercut e degradê.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div
+              class="card border-0 shadow-sm h-100 text-center align-items-center p-4"
+            >
+              <i class="fa-solid fa-user-tie fa-2x mb-3 text-dark"></i>
+              <h5 class="fw-bold">Barba Completa</h5>
+              <p class="text-muted">
+                Toalha quente, navalha e finalização premium.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div
+              class="card border-0 shadow-sm h-100 text-center align-items-center p-4"
+            >
+              <i class="fa-solid fa-eye fa-2x mb-3 text-dark"></i>
+              <h5 class="fw-bold">Sobrancelha Masculina</h5>
+              <p class="text-muted">
+                Limpeza leve e natural, sem perder a expressão.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-5">
+        <h4 class="fw-bold mb-4 text-center">
+          <img
+            src="./assets/icons-service/creme-de-barbear.png"
+            class="img-category"
+            alt=""
+          />
+          Tratamentos de Cuidado e Estilo
+        </h4>
+        <div class="row g-4 justify-content-center">
+          <div class="col-md-3">
+            <div
+              class="card border-0 shadow-sm h-100 text-center align-items-center p-4"
+            >
+              <i class="fa-solid fa-droplet fa-2x mb-3 text-dark"></i>
+              <h5 class="fw-bold">Hidratação Capilar</h5>
+              <p class="text-muted">
+                Nutrição intensa para fios fortes e saudáveis.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div
+              class="card border-0 shadow-sm h-100 text-center align-items-center p-4"
+            >
+              <i class="fa-solid fa-fire fa-2x mb-3 text-dark"></i>
+              <h5 class="fw-bold">Selagem / Alinhamento</h5>
+              <p class="text-muted">Redução de volume e brilho controlado.</p>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div
+              class="card border-0 shadow-sm h-100 text-center align-items-center p-4"
+            >
+              <i class="fa-solid fa-palette fa-2x mb-3 text-dark"></i>
+              <h5 class="fw-bold">Coloração</h5>
+              <p class="text-muted">Cobertura natural e realce de cor.</p>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div
+              class="card border-0 shadow-sm h-100 text-center align-items-center p-4"
+            >
+              <i class="fa-solid fa-face-smile fa-2x mb-3 text-dark"></i>
+              <h5 class="fw-bold">Esfoliação Facial</h5>
+              <p class="text-muted">Limpeza profunda para renovar a pele.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h4 class="fw-bold mb-4 text-center">
+          <img
+            src="./assets/icons-service/espelho.png"
+            class="img-category"
+            alt=""
+          />
+          Experiências Premium
+        </h4>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div
+              class="card border-0 shadow-sm h-100 text-center align-items-center p-4"
+            >
+              <i class="fa-solid fa-star fa-2x mb-3 text-dark"></i>
+              <h5 class="fw-bold">Day Barber</h5>
+              <p class="text-muted">
+                Experiência completa com corte, barba e cuidados especiais.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div
+              class="card border-0 shadow-sm h-100 text-center align-items-center p-4"
+            >
+              <i class="fa-solid fa-hand-sparkles fa-2x mb-3 text-dark"></i>
+              <h5 class="fw-bold">Massagem Relaxante</h5>
+              <p class="text-muted">
+                Facial ou capilar, ideal para finalizar o atendimento.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div
+              class="card border-0 shadow-sm h-100 text-center align-items-center p-4"
+            >
+              <i class="fa-solid fa-gem fa-2x mb-3 text-dark"></i>
+              <h5 class="fw-bold">Pacotes Personalizados</h5>
+              <p class="text-muted">Criados conforme o seu estilo e rotina.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
