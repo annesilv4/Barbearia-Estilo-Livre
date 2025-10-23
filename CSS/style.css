@@ -11890,10 +11890,45 @@ body {
 }
 
 .home-description {
-  width: 55%;
+  width: 35%;
   height: 20%;
   border-radius: 15px;
-  background-color: rgba(244, 244, 244, 0.665);
+  background-color: rgba(244, 244, 244, 0.6666666667);
+  text-align: left;
+}
+
+.btn-more {
+  text-decoration: none;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #c91b1b;
+  color: #f1f1f1;
+}
+
+.btn-more:hover {
+  background-color: #981818;
+}
+
+#about {
+  height: 82vh;
+  background-color: rgba(244, 244, 244, 0.6666666667);
+}
+
+.about-img {
+  width: 68%;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+#service {
+  height: auto;
+  background-color: #ffffff;
+}
+
+.img-category {
+  width: 2%;
 }
 
 /*# sourceMappingURL=style.css.map */
