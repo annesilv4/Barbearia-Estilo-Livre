@@ -11890,26 +11890,13 @@ body {
 }
 
 .home-description {
-  width: 35%;
-  height: 20%;
   border-radius: 15px;
   background-color: rgba(244, 244, 244, 0.6666666667);
   text-align: left;
 }
 
-.btn-more {
-  text-decoration: none;
-  text-align: center;
-  border-radius: 8px;
-  background-color: #c91b1b;
-  color: #f1f1f1;
-}
-
-.btn-more:hover {
-  background-color: #981818;
-}
-
-#about {
+#about,
+#contato {
   height: 82vh;
   background-color: rgba(244, 244, 244, 0.6666666667);
 }
@@ -11929,6 +11916,34 @@ body {
 
 .img-category {
   width: 2%;
+}
+
+#contato input,
+#contato textarea {
+  background-color: #222;
+  border: 1px solid #444;
+  color: #fff;
+}
+
+#contato input::placeholder,
+#contato textarea::placeholder {
+  color: #bbb;
+}
+
+#contato input:focus,
+#contato textarea:focus {
+  background-color: #333;
+  border-color: #ffc107; /* cor amarela do tema */
+  box-shadow: none;
+}
+
+footer a:hover {
+  color: #ffc107 !important; /* cor amarela do tema */
+  transition: 0.3s ease;
+}
+
+footer hr {
+  opacity: 0.2;
 }
 
 /*# sourceMappingURL=style.css.map */
